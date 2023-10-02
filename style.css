@@ -13,8 +13,11 @@ a {font-family: Arial, Helvetica, sans-serif; border-radius: 2px;
     color: rgb(255, 255, 255); padding: 10px}
 
 .hero {background-image: url(untitled-404-Edit.jpg);
-background-position: center 10%; 
-background-size:cover}
-
-
-
+background-position: center 40%; 
+height:500px;
+background-size:cover;
+display:flex;
+}
+h1{flex:1;}
+h2{flex:1;}
+h3{flex:1;}
