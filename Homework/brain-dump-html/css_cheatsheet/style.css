@@ -1,3 +1,51 @@
+body{
+background-color:#1d2a10;
+color:#dc9743;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 20px;
+font-weight: lighter;
+
+/* line height is basically the leading of a paragraph*/
+line-height: 1.6em;
+
+/*
+(Same as above)
+font:normal 20px georgia, Times, serif;
+*/
+
+margin:0
+
+}
+
 h1{
-    color:purple
+    color: #f3d841;
+    font-size: 50px;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+}
+
+.box-1{
+    background-color: #46513c;
+    color:#dc9743;
+    
+    border-right: 5px rgb(96, 54, 29)  solid;
+    border-left:5px rgb(96, 54, 29)  solid;
+    border-top:5px rgb(96, 54, 29)  solid;
+    border-bottom:5px rgb(96, 54, 29)  solid;
+
+    /* Same as above 4 lines
+    border: 5px rgb(96, 54, 29)  solid;*/
+
+    border-width:3px;
+    /*the bottom width will adjust the width of the boarder itself, in this case the bottom one*/
+    border-bottom-width:10px;
+
+    /* you can use this simple shorthand bellow for above bordering if all sizes are the same*/
+    border:10px rgb(96, 54, 29)  solid;
+
+    padding: 4.5%;
+    margin: 8%;
 }
