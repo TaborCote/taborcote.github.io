@@ -48,7 +48,7 @@ h1{
     border: 5px rgb(96, 54, 29)  solid;*/
 
     border-width:3px;
-    
+
     /*the bottom width will adjust the width of the boarder itself, in this case the bottom one*/
     border-bottom-width:10px;
 
@@ -63,9 +63,59 @@ h1{
     /*same as above 4 lines*/
     padding:30px;
 
-    margin: top 60px ;
-    /* or you can just say "margin:60px" if you want it to be even all around*/
+    margin: top 60px 0 ;
+    /* or you can just say "margin:60px" if you want it to be even all around, the "0" refers to the R and L*/
 
 
     margin: 8%;
 }
+
+/* this will style the h1 within this particular class*/
+.box-1 h1{
+    font-family:Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+
+    /* letter spacing refers to the kerning of the words, uses the "em" label*/
+    letter-spacing: 0.2em;
+    
+    word-spacing: .25em;
+    line-height: 1.6em;
+}
+
+.box-2{
+    border: 5px dotted #ccc;
+    padding:20px;
+    margin:20px 0;
+}
+
+.categories{
+    border:5px #ccc dashed;
+    padding: 20px;
+    margin: 20px 0;
+
+    /* the boarder radius will allow you to make curved edges to the box*/
+    border-radius:15px;
+}
+
+.categories h2{
+    text-align:center;
+    font-size: 50px;
+    color: #f3d841;
+}
+
+.categories ul{
+    padding:0;
+
+    /*the list style is talking about what the bullets look like or lack there of
+    using the:
+
+    "list-style:none;" 
+
+    will make it so there are no bullets */
+
+    list-style: square;
+}
+
