@@ -1,3 +1,11 @@
+/**{
+    /* *{} this basically zeros out everything (a RESET)*/
+    
+    /*margin:0;
+    padding:0;
+
+}*/
+
 body{
 background-color:#1d2a10;
 color:#dc9743;
@@ -40,12 +48,24 @@ h1{
     border: 5px rgb(96, 54, 29)  solid;*/
 
     border-width:3px;
+    
     /*the bottom width will adjust the width of the boarder itself, in this case the bottom one*/
     border-bottom-width:10px;
 
-    /* you can use this simple shorthand bellow for above bordering if all sizes are the same*/
+    /* you can use this simple shorthand bellow for above bordering if all sizes and colors are the same*/
     border:10px rgb(96, 54, 29)  solid;
 
-    padding: 4.5%;
+    padding: top 30px;
+    padding: bottom 30px;
+    padding: right 30px;
+    padding: left 30px;
+
+    /*same as above 4 lines*/
+    padding:30px;
+
+    margin: top 60px ;
+    /* or you can just say "margin:60px" if you want it to be even all around*/
+
+
     margin: 8%;
 }
