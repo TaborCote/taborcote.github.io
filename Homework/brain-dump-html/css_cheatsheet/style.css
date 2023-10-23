@@ -30,6 +30,28 @@ h1{
     font-size: 50px;
 }
 
+/*this a is refering to the links*/
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color:#dc9743
+}
+
+/* buttons (a) can have different states like hover, and you can stylize them like bellow*/
+a:hover{
+    color:bisque
+}
+
+/*the active state happens when you click on it*/
+a:active{
+    color:#f3d841
+}
+
+/*visited shows which pages you have been to after clicking on them, not really used often anymore*/
+a:visited{
+    color:rgb(255, 255, 255);
+}
+
 .container{
     width:80%;
     margin:auto;
@@ -71,6 +93,7 @@ h1{
 }
 
 /* this will style the h1 within this particular class*/
+
 .box-1 h1{
     font-family:Tahoma;
     font-weight: 800;
@@ -108,6 +131,7 @@ h1{
 
 .categories ul{
     padding:0;
+    padding-left:30px;
 
     /*the list style is talking about what the bullets look like or lack there of
     using the:
@@ -117,5 +141,13 @@ h1{
     will make it so there are no bullets */
 
     list-style: square;
+}
+
+.categories li{
+    padding-bottom: 10px;
+    border-bottom:solid 5px #46513c;
+
+    /*when resizing images there a bunch of different ways to do it, one way is to open original file in PS and resize it there*/
+    list-style-image: url('../css_cheatsheet/images/check.png');
 }
 
