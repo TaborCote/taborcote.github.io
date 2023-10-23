@@ -43,18 +43,30 @@ a:hover{
 }
 
 /*the active state happens when you click on it*/
-a:active{
+.a:active{
     color:#f3d841
 }
 
 /*visited shows which pages you have been to after clicking on them, not really used often anymore*/
-a:visited{
+.a:visited{
     color:rgb(255, 255, 255);
 }
 
 .container{
     width:80%;
     margin:auto;
+}
+
+.button{
+    background-color:#f3d841;
+    color: #1d2a10;
+    padding: 10px 15px;
+    border:none;
+}
+
+.button:hover{
+  background-color: #46513c;  
+  color:bisque
 }
 
 .box-1{
@@ -150,4 +162,26 @@ a:visited{
     /*when resizing images there a bunch of different ways to do it, one way is to open original file in PS and resize it there*/
     list-style-image: url('../css_cheatsheet/images/check.png');
 }
+
+.my-form{
+    padding: 20px;
+
+}
+
+.my-form .form-group{
+    padding: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+/*the [type="text"] it should disregard the button size and stay at the size you set it to be*/
+
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width:100%;
+}
+
+
 
