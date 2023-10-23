@@ -30,6 +30,11 @@ h1{
     font-size: 50px;
 }
 
+h3{
+    color:#f3d841;
+    font-size: 20px;
+}
+
 /*this a is refering to the links*/
 a{
     text-decoration: none;
@@ -67,6 +72,11 @@ a:hover{
 .button:hover{
   background-color: #46513c;  
   color:bisque
+}
+
+/* (clr) this will then clear any floats that are above it*/
+.clr{
+    clear:both;
 }
 
 .box-1{
@@ -183,5 +193,61 @@ a:hover{
     width:100%;
 }
 
+.block{
+    float:left;
 
+    /*since there are three subsections, we do the 33.3 so they all line up*/
+    width:33.3%;
 
+    /* doing just this will frick up how they look, you also need to add a "box-sizing:border-box;" property*/
+    background-color: #46513c;
+    border:1px solid #1d2a10;
+    padding:10px;
+    box-sizing:border-box;
+}
+
+#main-block{
+    float:left;
+    width:70%;
+    padding:15px;
+    box-sizing: border-box;
+}
+
+/*QUESTION:
+Why is background grey color not showing on side bar
+Why are the margins of the whole page off?
+*/
+
+#side-bar{
+    float:right;
+    width:30%;
+    background-color:#292929;
+    color: #dc9743;
+    padding:15px;
+    box-sizing: border-box;
+}
+
+.p-box{
+    width:800px;
+    height:500px;
+    border:1px solid #ccc;
+    margin-top:30px;
+    position: relative
+}
+
+/*
+This is all what it would look like if you did absolute positioning
+
+.p-box h1{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+
+}
+
+.p-box h2{
+    position:absolute;
+    bottom:40px;
+    right:100px;
+
+}*/
