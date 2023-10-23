@@ -17,7 +17,7 @@ secondary: #1C1C23;
 body {
   margin:0;
   font-family: 'Inika', serif;
-  background-color: black;
+  background-color: #1C1C23;
 }
 img {
   width:100%;
@@ -37,7 +37,7 @@ h1 {
 h2 {
   font-family: "painted brush";
   font-weight: 400;
-  font-size: 160;
+  font-size: 160pt;
   color: #FFF200;
 }
 /*change the font to brandon grotesque when you get it */
@@ -47,7 +47,7 @@ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 a {
-  color: black;
+  color: #1C1C23;
   text-decoration:none;
 }
 footer {
@@ -108,6 +108,9 @@ color: rgb(255, 255, 255);
    width: 80%; margin: auto;
 }
 
+
+/*--------------------------knives learn more section----------------------------------------*/
+
 #about-home-blurb{
   color:white;
   float:right;
@@ -115,7 +118,65 @@ color: rgb(255, 255, 255);
 
 .darkbackground-p{
   color: white;
+  
 }
+
+
+
+/*-----------------------------Knife types home block-------------------------------------------*/
+.knife-types-home {
+  text-align: center;
+  border-top: 1px solid white;
+}
+
+h2 {
+  font-size: 130px;
+  margin-bottom: 50px;
+}
+
+.photo-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.photo-container img {
+  width: 585px;
+  height: 553px;
+}
+/*-----------------------------------------Footer------------------------------------------------*/
+
+footer {
+  width: 1440px;
+  height: 267px;
+  background-color: #FFF200;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  text-align: left;
+  color: #1C1C23;
+  padding-left: 40px;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+  align-items:center;
+  padding: 60px;
+
+}
+
+h3 {
+  margin-left: 10px;
+}
+
+p {
+  text-align: bottom center;
+}
+
 
 /*------------------------------------------- Flex's ---------------------------------------------*/
 
@@ -125,7 +186,6 @@ color: rgb(255, 255, 255);
 .flex div {
   flex:1;
 }
-
 
 .about-homebox{
   background-color: #1C1C23;
