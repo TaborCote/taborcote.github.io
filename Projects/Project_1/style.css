@@ -4,6 +4,9 @@
   src: url("fonts/Painted_Brush.ttf");
 }
 
+/* **! ONE style sheet per project, */
+/* **! REMEMBER to ALWAYS "commit to main AND push to github */
+
 /* 
 font-family: 'painted brush;
 font-family: 'Inika', serif;
@@ -19,6 +22,11 @@ body {
   font-family: 'Inika', serif;
   background-color: #1C1C23;
 }
+
+body.knives{
+background-color: #fff;
+}
+
 img {
   width:100%;
 }
@@ -113,6 +121,8 @@ color: rgb(255, 255, 255);
 
 #about-home-blurb{
   color:white;
+ 
+ /* **TODO : DO NOT USE FLOATS, Find out how to change this */
   float:right;
   text-align: left;
   padding-bottom: 100%;
@@ -144,18 +154,16 @@ h2 {
   gap: 10px;
 }
 
-.photo-container img {
-  width: 585px;
-  height: 553px;
+.photo-container div{
+flex:1
 }
 
 /*----------------------------------------Knife care Home block-------------------------------*/
 
 .background-section {
   position: relative;
-  width: 1666px;
   height: 897px;
-  background-image: url("/images/care_hero.jpg");
+  background-image: url("images/Care_Hero.jpg");
   background-size: cover;
 }
 
@@ -163,26 +171,48 @@ h2 {
   position: absolute;
   top: 0;
   right: 0;
-  bottom: 0;
-  left: 0;
+  width:35%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-end; /* To align content to the right */
+  align-items: flex-start; /* To align content to the right */
   padding: 20px;
   color: #fff;
-  background-color: #1C1C23; /* Adjust the transparency as needed */
 }
 
 h2 {
   text-align: center;
 }
 
+/*-----------------------------------------Knife types (about knives)------------------------------------------------*/
+
+/**? How do I change my background and sizes of the text on this specific page?*/
+
+.knives section {
+  margin-bottom: 20px;
+  background-color: #FFF200;
+}
+
+.knives-h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.knives-h3 {
+  font-size: 20pt;
+  margin-bottom: 5px;
+}
+
+/*can use this as needed*/
+.img-pad{
+  padding:60px;
+}
+
 
 /*-----------------------------------------Footer------------------------------------------------*/
 
 footer {
-  width: 1440px;
+  width: 100%;
   height: 267px;
   background-color: #FFF200;
   align-items: center;
@@ -234,4 +264,42 @@ p {
 .about-homebox{
   background-color: #1C1C23;
   float: center;
+}
+
+/*-----------------------------Scroll button feature------------------------*/
+
+#scrollToTopButton {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#scrollToTopButton:hover {
+  background-color: #555;
+}
+
+
+
+
+
+
+/* ** Check out this youtube video on how to create small svg animations:
+- the max width should be 768 px
+if you are using multi collumns use the .flexbox {flex-direction:column;}
+https://www.youtube.com/watch?v=momDSSTf6LM */
+
+
+@media screen and (max-width: 768px){
+  body{
+    background-color:#1C1C23
+  }
 }
