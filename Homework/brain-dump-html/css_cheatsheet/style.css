@@ -213,10 +213,8 @@ a:hover{
     box-sizing: border-box;
 }
 
-/*QUESTION:
-Why is background grey color not showing on side bar
-Why are the margins of the whole page off?
-*/
+/* **? QUESTION: Why is background grey color not showing on side bar */
+/* **? QUESTION: Why are the margins of the whole page off? */
 
 #side-bar{
     float:right;
@@ -232,16 +230,21 @@ Why are the margins of the whole page off?
     height:500px;
     border:1px solid #ccc;
     margin-top:30px;
-    position: relative
+    position: relative;
+
+    /* *? QUESTION: my background image is not showing up? 
+    Original code: background-image:url('../images/breakfast.png');
+    */
+
+    background-color:#060d08
 }
 
-/*
-This is all what it would look like if you did absolute positioning
+/*This is all what it would look like if you did absolute positioning */
 
 .p-box h1{
     position: absolute;
-    top: 100px;
-    left: 200px;
+    top: 40px;
+    left: 80px;
 
 }
 
@@ -250,4 +253,12 @@ This is all what it would look like if you did absolute positioning
     bottom:40px;
     right:100px;
 
-}*/
+}
+
+/* fix me allow you to fix an element any where on the page you want, so as you scroll it stays in one place*/
+/* **This would be good for social media, maybe a button to take you back to the begining of the page again? */
+.fix-me{
+  position: fixed;
+  top:1200px
+
+}
