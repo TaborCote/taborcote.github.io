@@ -26,7 +26,7 @@ img {
 h1 {
   font-family: "painted brush";
   font-weight: 400;
-  font-size: 160px;
+  font-size: 120px;
   color: #FFF200;
 }
 
@@ -37,6 +37,7 @@ h1 {
 h2 {
   font-family: "painted brush";
   font-weight: 400;
+  font-size: 160;
   color: #FFF200;
 }
 /*change the font to brandon grotesque when you get it */
@@ -53,6 +54,9 @@ footer {
   background-color: #FFF200;
   width:100vw;
 }
+
+
+/*----------------------------------------- Buttons / Navigation ----------------------------------------------*/
 
 .button {
   display:inline-block;
@@ -73,15 +77,20 @@ footer {
 }
 .home-top nav a {
 color: rgb(255, 255, 255);
+
 }
 .home-top nav h1 {
   margin:0;
 }
+
+/* this is the  main home navigation*/
 .home-top nav {
   padding-top:60px;
   padding-bottom:60px;
+  font-size: 18pt;
   border-bottom: 1px solid white;
 }
+
 .home-top nav ul {
   list-style:none;
   display:flex;
@@ -90,6 +99,7 @@ color: rgb(255, 255, 255);
   padding:0;
   margin:0;
 }
+
 .home-about {
   height:100vh;
   width:100vw;
@@ -97,9 +107,27 @@ color: rgb(255, 255, 255);
   color: white;
    width: 80%; margin: auto;
 }
+
+#about-home-blurb{
+  color:white;
+  float:right;
+}
+
+.darkbackground-p{
+  color: white;
+}
+
+/*------------------------------------------- Flex's ---------------------------------------------*/
+
 .flex {
   display:flex;
 }
 .flex div {
   flex:1;
+}
+
+
+.about-homebox{
+  background-color: #1C1C23;
+  float: center;
 }
