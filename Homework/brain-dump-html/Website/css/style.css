@@ -1,0 +1,27 @@
+body{
+    background-color: blanchedalmond;
+    color: cadetblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+
+}
+
+.h1{
+    background-color: black;
+    color: white;
+}
+
+.container{
+    width: 805;
+    margin:auto;
+    overflow: hidden;
+}
+
+#main-header{
+    background-color: rgb(255, 209, 25);
+    color: rgb(0, 0, 0)
+
+}
+

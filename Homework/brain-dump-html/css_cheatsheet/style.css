@@ -246,6 +246,18 @@ a:hover{
     top: 40px;
     left: 80px;
 
+    /* **these are the background options you have and can play around with*/
+    background-repeat:no-repeat;
+    background-position: 100px 200px;
+
+    /* center center will center it on the top and horizontal planes, there are other options like
+    background-position: center center
+    background-position: center top
+    (you can use pixles or to words)
+    */
+
+    background-position: center top
+
 }
 
 .p-box h2{
@@ -257,8 +269,32 @@ a:hover{
 
 /* fix me allow you to fix an element any where on the page you want, so as you scroll it stays in one place*/
 /* **This would be good for social media, maybe a button to take you back to the begining of the page again? */
+
 .fix-me{
   position: fixed;
   top:1200px
 
 }
+
+/*Lets you target the first item in the list*/
+.my-list li:first-child{
+    background:#46513c
+}
+
+/*Lets you target the last item in the list*/
+.my-list li:last-child{
+    background:#f3d841
+}
+
+/*allows you to choose any other number the highlight it*/
+.my-list li:nth-child(5){
+    background-color: #f3d841;
+}
+
+/*you can even target only the even or odd numbers/ items too*/
+.my-list li:nth-child(even){
+    background-color:azure;
+}
+
+
+
