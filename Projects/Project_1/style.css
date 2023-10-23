@@ -114,6 +114,9 @@ color: rgb(255, 255, 255);
 #about-home-blurb{
   color:white;
   float:right;
+  text-align: left;
+  padding-bottom: 100%;
+  margin: 70%;
 }
 
 .darkbackground-p{
@@ -121,17 +124,18 @@ color: rgb(255, 255, 255);
   
 }
 
-
-
 /*-----------------------------Knife types home block-------------------------------------------*/
+
 .knife-types-home {
-  text-align: center;
+  text-align: below center;
   border-top: 1px solid white;
+  color: #fff;
+  margin: 10em;
 }
 
 h2 {
   font-size: 130px;
-  margin-bottom: 50px;
+  
 }
 
 .photo-container {
@@ -151,7 +155,7 @@ h2 {
   position: relative;
   width: 1666px;
   height: 897px;
-  background-image: url("Project1/images/care_hero.jpg");
+  background-image: url("/images/care_hero.jpg");
   background-size: cover;
 }
 
@@ -181,15 +185,18 @@ footer {
   width: 1440px;
   height: 267px;
   background-color: #FFF200;
+  align-items: center;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  padding: 5em;
+   
 }
 
 h1 {
   text-align: left;
   color: #1C1C23;
   padding-left: 40px;
+
 }
 
 .links {
@@ -202,10 +209,16 @@ h1 {
 
 h3 {
   margin-left: 10px;
+  
 }
 
 p {
-  text-align: bottom center;
+  text-align: left;
+  padding-bottom: 2em;
+}
+
+.copyright{
+  
 }
 
 
