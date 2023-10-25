@@ -117,7 +117,7 @@ color: rgb(255, 255, 255);
 }
 
 
-/*--------------------------knives learn more section----------------------------------------*/
+/*--------------------------knives learn more home page section----------------------------------------*/
 
 #about-home-blurb{
   color:white;
@@ -188,10 +188,10 @@ h2 {
 
 /**? How do I change my background and sizes of the text on this specific page?*/
 
-.knives section {
+/*.knives section {
   margin-bottom: 20px;
   background-color: #FFF200;
-}
+}*/
 
 .knives-h2 {
   font-size: 40px;
@@ -208,6 +208,9 @@ h2 {
   padding:60px;
 }
 
+.knife-types-about{
+  background-color: #fff;
+}
 
 /*-----------------------------------------Footer------------------------------------------------*/
 
@@ -251,6 +254,12 @@ p {
   
 }
 
+/* Blog main body*/
+
+.body-blogbody{
+  background-color: #fff;
+}
+
 
 /*------------------------------------------- Flex's ---------------------------------------------*/
 
@@ -276,21 +285,21 @@ p {
   width: 40px;
   height: 40px;
   font-size: 24px;
-  background-color: #333;
-  color: #fff;
+  background-color: #FFF200;
+  color: #070022;
   border: none;
   border-radius: 50%;
   cursor: pointer;
 }
 
 #scrollToTopButton:hover {
-  background-color: #555;
+  background-color: #ffffff;
 }
 
 
+/* blog section*/
 
-
-
+.
 
 /* ** Check out this youtube video on how to create small svg animations:
 - the max width should be 768 px
@@ -298,8 +307,4 @@ if you are using multi collumns use the .flexbox {flex-direction:column;}
 https://www.youtube.com/watch?v=momDSSTf6LM */
 
 
-@media screen and (max-width: 768px){
-  body{
-    background-color:#1C1C23
-  }
-}
+/**/
