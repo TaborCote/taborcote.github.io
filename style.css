@@ -1,16 +1,35 @@
 
-    body {font-family: Arial, Helvetica, sans-serif; font-size:larger; font-weight: bolder;
-    background-color: rgb(250, 248, 235);}
-    h1 {color: rgb(57, 57, 57); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-padding: 30px} 
+/*font-family: 'Alice', serif;
+font-family: 'Montserrat', sans-serif;*/
+    
+    body {font-family: Montserrat, sans-serif; 
+        font-size:larger; 
+        font-weight: bolder;
+        background-color: rgb(250, 248, 235);
+}
+
+    h1 {color: rgb(239, 246, 35); 
+        font-family: Alice,serif;
+        font-size: 50pt;
+        padding: 30px
+} 
 
 
-    h2 {color: rgb(239, 246, 35); border: 2px solid; padding: 20px; 
-    margin-right: 10px;}
+    h2 {color: rgb(239, 246, 35);  
+        padding: 20px; 
+        margin-right: 10px;
+}
 
-p {font-family: Arial, Helvetica, sans-serif; padding: 10px;}
-a {font-family: Arial, Helvetica, sans-serif; border-radius: 2px;
-    color: rgb(255, 255, 255); padding: 10px}
+p {font-family: Montserrat, sans-serif; 
+    padding: 10px;
+}
+
+a {font-family: Arial, Helvetica, sans-serif; 
+    border-radius: 2px;
+    color: rgb(255, 255, 255); 
+    padding: 10px
+}
+
 
 .hero {background-image: url(untitled-404-Edit.jpg);
 background-position: center 40%; 
@@ -18,6 +37,7 @@ height:500px;
 background-size:cover;
 display:flex;
 }
+
 h1{flex:1;}
 h2{flex:1;}
 h3{flex:1;}
