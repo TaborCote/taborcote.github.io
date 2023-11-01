@@ -1,0 +1,148 @@
+body{
+    margin:0;
+}
+
+image{
+
+}
+
+.angry-grid {
+   display: grid; 
+
+   grid-template-rows: 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   
+   gap: 0px;
+   column-gap:20px;
+   row-gap: 40px;
+   height: 100%;
+   
+}
+  
+#item-0 {
+
+   background-color: #75DCC9; 
+   grid-row-start: 1;
+   grid-column-start: 1;
+
+   grid-row-end: 3;
+   grid-column-end: 3;
+   
+}
+#item-1 {
+
+   background-color: #6A7ABB; 
+   grid-row-start: 1;
+   grid-column-start: 3;
+
+   grid-row-end: 2;
+   grid-column-end: 4;
+   
+}
+#item-2 {
+
+   background-color: #95B6D6; 
+   grid-row-start: 1;
+   grid-column-start: 4;
+
+   grid-row-end: 2;
+   grid-column-end: 5;
+   
+}
+#item-3 {
+
+   background-color: #E5EE6E; 
+   grid-row-start: 1;
+   grid-column-start: 5;
+
+   grid-row-end: 2;
+   grid-column-end: 6;
+   
+}
+#item-4 {
+
+   background-color: #D896DE; 
+   grid-row-start: 2;
+   grid-column-start: 5;
+
+   grid-row-end: 3;
+   grid-column-end: 6;
+   
+}
+#item-5 {
+
+   background-color: #B95559; 
+   grid-row-start: 2;
+   grid-column-start: 4;
+
+   grid-row-end: 3;
+   grid-column-end: 5;
+   
+}
+#item-6 {
+
+   background-color: #BCD7B6; 
+   grid-row-start: 2;
+   grid-column-start: 3;
+
+   grid-row-end: 3;
+   grid-column-end: 4;
+   
+}
+#item-7 {
+
+   background-color: #7DCBBE; 
+   grid-row-start: 3;
+   grid-column-start: 1;
+
+   grid-row-end: 4;
+   grid-column-end: 2;
+   
+}
+#item-8 {
+
+   background-color: #86BC87; 
+   grid-row-start: 3;
+   grid-column-start: 2;
+
+   grid-row-end: 4;
+   grid-column-end: 3;
+   
+}
+#item-9 {
+
+   background-color: #C955DA; 
+   grid-row-start: 3;
+   grid-column-start: 3;
+
+   grid-row-end: 4;
+   grid-column-end: 4;
+   
+}
+#item-10 {
+
+   background-color: #BE5CD7; 
+   grid-row-start: 3;
+   grid-column-start: 4;
+
+   grid-row-end: 4;
+   grid-column-end: 5;
+   
+}
+#item-11 {
+
+   background-color: #F8F7AC; 
+   grid-row-start: 3;
+   grid-column-start: 5;
+
+   grid-row-end: 4;
+   grid-column-end: 6;
+   
+}
+
+.gallery{
+    display:grid;
+    width:60%;
+    margin:auto;
+    grid-template-columns:repeat(auto-fill), minmax(300px,1fr);
+}
