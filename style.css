@@ -15,9 +15,14 @@ font-family: 'Montserrat', sans-serif;*/
 } 
 
 
-    h2 {color: rgb(239, 246, 35);  
+    h2 {color: rgb(0, 0, 0);  
         padding: 20px; 
         margin-right: 10px;
+}
+
+    .home_h2 {
+        color: black;
+        font-size: 60px;
 }
 
 p {font-family: Montserrat, sans-serif; 
@@ -36,6 +41,7 @@ background-position: center 40%;
 height:500px;
 background-size:cover;
 display:flex;
+border-bottom: 10px;
 }
 
 h1{flex:1;}
