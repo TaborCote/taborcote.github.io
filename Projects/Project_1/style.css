@@ -109,6 +109,18 @@ p{
 }
 /* this just overrides the photo in the header to what you want on that specific page, ex: body class="carepage" */
 
+.carepage .home-top{
+  background-image: url('images/Care_Hero.jpg');
+}
+
+.blogpage .home-top{
+  background-image: url('images/blog_Hero.jpg');
+}
+
+.aboutpage .home-top{
+  background-image: url('images/About_Hero.jpg');
+}
+
 .home-top nav a {
 color: rgb(255, 255, 255);
 
