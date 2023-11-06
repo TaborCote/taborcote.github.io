@@ -53,6 +53,11 @@ body {font-family: Montserrat, sans-serif;
         padding: 30px
 } 
 
+nav h1{
+  margin:0;
+  padding:0;
+}
+
 .homeh1{
     color: #000000;
     font-family:alice;
@@ -96,7 +101,7 @@ a {font-family: Arial, Helvetica, sans-serif;
 /*----------------------------------------------------*/
 
 .content{
-    background-image: url(images/loglay.jpg);
+    background-image: url(Images/loglay.jpg);
     background-position: center 40%;
     background-size: cover;
     max-width: 100%;
