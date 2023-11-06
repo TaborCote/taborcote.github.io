@@ -123,6 +123,21 @@ background-size:cover;
 display:flex;
 }
 
+.hero2 {
+    background-image: url(Images/night_sky.JPG);
+    background-position: center 40%; 
+    height:500px;
+    background-size:cover;
+    display:flex;
+    }
+
+.hero2 h2{
+    color: #FFF200;
+    text-align: center;
+    display:flex;
+    
+}
+
 .hero h2{
     background-image: url(Images/costarica.JPG);
     background-position: center 70%;
