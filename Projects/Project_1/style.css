@@ -103,6 +103,12 @@ p{
   width:100vw;
   height:50vh;
 }
+
+.knifepage .home-top{
+  background-image: url('images/KnifeTypes_Page2.jpg');
+}
+/* this just overrides the photo in the header to what you want on that specific page, ex: body class="carepage" */
+
 .home-top nav a {
 color: rgb(255, 255, 255);
 
