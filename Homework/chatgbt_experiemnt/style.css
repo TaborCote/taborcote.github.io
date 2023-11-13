@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FFE4B5; /* Light Orange background color */
+  font-family: Arial, sans-serif;
+}
+
+#announcement-bar {
+  background-color: #FFA500; /* Orange color for the announcement bar */
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+#logo {
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+}
+
+#main-photo {
+  width: 100%;
+  height: 797px;
+  background: url('path/to/your/photo.jpg') center/cover no-repeat; /* Add your photo path */
+}
+
+#locations-hours {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+footer {
+  background-color: #FFA500; /* Orange color for the footer */
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+#social-media, #footer-links {
+  display: flex;
+}
+
+#middle-line {
+  border-right: 2px solid white;
+  height: 20px;
+  margin: 0 20px;
+}
