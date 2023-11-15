@@ -92,6 +92,7 @@ body {
     width: 100%;
     height: 797px;
     background: url('images/home_hero.png') center/cover no-repeat; /* Add your photo path */
+    border-radius:  0px  0px 32px 32px ;
   }
 
   .hero_home #text-overlay {
