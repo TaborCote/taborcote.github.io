@@ -23,15 +23,18 @@ body {
   }
 
   h1{
+    font-size: 40px;
 
   }
 
   h2{
+    font-size: 25px;
+    font-weight: 450px;
 
   }
 
   h3{
-
+    font-weight: 20px ;
   }
 
   p{
