@@ -1,8 +1,9 @@
 body {
     margin: 20%;
     padding: 0;
+    font-size: medium;
     background-color: #FFE4B5; /* Light Orange background color */
-    font-family: Arial, sans-serif;
+    font-family:"brandon-grotesque", sans-serif;
   }
   
   #announcement-bar {
@@ -31,6 +32,11 @@ body {
 
   }
 
+  p{
+    font-size: 25 pt;
+    font-weight: 390;
+  }
+
   /*Navigation*/
 
   
@@ -41,12 +47,15 @@ body {
   
   nav {
     display: flex;
+    justify-content: center;
   }
   
   nav a {
     margin: 0 15px;
     text-decoration: none;
     color: black;
+    flex-grow: 1;
+    text-align: center;
     
   }
   
@@ -81,12 +90,17 @@ body {
     color: white;
   }
 
+  #lounge{
+    color: white;
+    font-family:"brandon-grotesque", sans-serif;
+  }
+
 /*------------------Reserve now section home page---------------*/
 
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: "brandon-grotesque", sans-serif;
   }
 
   #cafe-container {
@@ -169,7 +183,7 @@ body {
     color: #FFE4B5;
     text-align: center;
     justify-content: center;
-    padding: 20px;
+    padding: 10px;
     margin: 1.5%;
   }
 
@@ -183,7 +197,6 @@ body {
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
   }
 
   #signup-section {
@@ -203,7 +216,7 @@ body {
   }
 
   #email-input {
-    width: 400px;
+    width: 00px;
     padding: 15px;
     opacity: 0.5;
     background-color: #FFE4B5;
@@ -234,7 +247,7 @@ body {
   }
   #scroll_button::after {
     content: "\f077";
-    font-family: FontAwesome;
+    font-family: "brandon-grotesque", sans-serif;
     font-weight: normal;
     font-style: normal;
     font-size: 2em;
