@@ -303,9 +303,28 @@ body {
 #rentalinfo #hours h2{
   color: #FFE4B5;
 }
+/*--------------------------About Page-----------------------------------------------*/
 
+.about_home{
 
-  /*---------------------------------footer--------------------------------------*/
+}
+
+#brandswesupport{
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: space-evenly;
+  background-color: #431650;
+  color: #FFE4B5;
+  padding:2%;
+}
+
+#brandswesupport a{
+  color:#FFE4B5;
+  text-decoration: none;
+}
+
+/*---------------------------------footer--------------------------------------*/
   
   footer {
     background-color: #FAAB4A; /* Orange color for the footer */
