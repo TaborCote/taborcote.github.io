@@ -182,6 +182,7 @@ body {
       color:#FFE4B5
     }
 
+
 /*---------------------Land awknoledgement section home page---------------------*/
 
 #acknowledgment-section {
@@ -275,6 +276,15 @@ body {
 /*--------------------------Menu page-----------------------------------------------*/
 
 
+.menu_items{
+  display:flex;
+  width:80%;
+  margin:auto;
+}
+
+.menu_items div{
+  flex:1;
+}
 
   /*---------------------------------space rental page --------------------------------------*/
 
@@ -293,11 +303,14 @@ body {
     max-width: 1380;
     color: #FFE4B5;
     display: flex;
-    flex-direction: column;
     text-align: left;
     padding: 10px;
     margin: 1.5%;
     
+}
+
+.right-hours{
+  padding:80px;
 }
 
 #additionalnotes{
