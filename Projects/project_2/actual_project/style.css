@@ -286,6 +286,16 @@ body {
   flex:1;
 }
 
+.kava-drinks{
+  margin:auto;
+  width:80px;
+  display: flex;
+}
+
+.nalu_logo_menu{
+  display: flex;
+  
+}
   /*---------------------------------space rental page --------------------------------------*/
 
 #spacerental{
