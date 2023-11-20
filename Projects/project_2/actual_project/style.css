@@ -315,6 +315,10 @@ margin: auto;
 display: flex;
 max-width:
 }
+
+.right menu .fda h3{
+  border-radius: 20%;
+}
   /*---------------------------------space rental page --------------------------------------*/
 
 #spacerental{
