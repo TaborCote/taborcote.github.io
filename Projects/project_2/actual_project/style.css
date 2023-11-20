@@ -51,10 +51,18 @@ body {
     font-weight: 390;
   }
 
+  a{
+    font-size: 20px;
+    font-weight: 450px;
+    color: #333;
+    line-height: normal;
+
+  }
+
   /*Navigation*/
 
   
-  #logo {
+  .logo {
     cursor: pointer;
     padding: 2%;
   }
@@ -137,7 +145,6 @@ body {
 
   h2 {
     color: #333;
-    
   }
 
   #reserve-button {
@@ -291,6 +298,11 @@ body {
 width:30%;
 }
 
+.kava_types h2 {
+  flex-direction: row;
+  display: flex;
+}
+
 .menu_items{
   display:flex;
   width:80%;
@@ -334,6 +346,7 @@ max-width:
 .fda{
   border-style:dotted;
   color: #E4423B;
+  border-radius: 5%;
   padding: 3%;
 }
 
@@ -395,15 +408,18 @@ max-width:
   margin-left: 10%;
   margin-right: 10%;
   justify-content: space-evenly;
-  background-color: #431650;
-  color: #FFE4B5;
+  background-color: #FAAB4A;
   padding:2%;
   border-radius: 32px;
 }
 
 #brandswesupport a{
-  color:#FFE4B5;
+  color:#431650;
   text-decoration: none;
+}
+
+#brandswesupport a:hover{
+  text-decoration: underline;
 }
 
 /*---------------------------------footer--------------------------------------*/
@@ -423,8 +439,12 @@ footer a {
   margin-right: 20px;
   margin-bottom:20px;
   }
+
+  footer a:hover{
+    text-decoration: underline;
+  }
   
-#social-media{
+.social-media{
   display:flex;
   max-width: 100%;
   align-items: center;
@@ -432,7 +452,7 @@ footer a {
 
   } 
 
-#social-media a {
+.social-media a {
   margin-right: 10px;
   flex-direction: column;
   }
@@ -457,10 +477,12 @@ footer a {
   }
   
 /*-----------------------Media Query -----------------------------*/
+
   @media screen and (max-width:758px){
 
     nav {
       flex-direction: column;
+    
     }
 
     nav a {
