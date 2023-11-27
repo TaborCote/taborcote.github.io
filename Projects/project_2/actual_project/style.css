@@ -188,16 +188,18 @@ body {
       width: 100%;
     }
 
-    #view-menu-button {
+    #view-menu-button, .button {
       padding: 10px 20px;
       background-color: #FFE4B5; /* Orange background color */
       color: #E4423B;
-      border-color: #E4423B;
+      border: 2px solid #E4423B;
       cursor: pointer;
       border-radius: 5px;
+      display:inline-block;
+      text-decoration: none;
     }
 
-    #view-menu-button:hover {
+    #view-menu-button:hover, .button:hover {
       background-color: #E4423B; /* Lighter orange on hover */
       color:#FFE4B5
     }
