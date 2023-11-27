@@ -36,7 +36,7 @@ body {
   }
 
   h2{
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 450px;
     color: #333;
     line-height: normal;
@@ -48,8 +48,9 @@ body {
   }
 
   p{
-    font-size: 14pt;
-    font-weight: 390px;
+    font-size: 15pt;
+    font-weight: 390;
+    line-height: normal;
   }
 
   a{
@@ -71,6 +72,7 @@ body {
   nav {
     display: flex;
     justify-content: center;
+    margin-right: 0%;
   }
   
   nav a {
@@ -79,7 +81,12 @@ body {
     color: black;
     flex-grow: 1;
     text-align: center;
-    
+    font-size: 20pt;
+  }
+
+  .google_map_navicon{
+    display: flex;
+    margin-right:5%;
   }
   
 /*-----------------Locations and hours home page --------------- */
