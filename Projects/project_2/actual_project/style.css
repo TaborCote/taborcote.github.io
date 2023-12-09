@@ -422,11 +422,18 @@ max-width:
 
 #rentalinfo #hours h2{
   color: #FFE4B5;
+  justify-content: center;
 }
+
+.hrimage{
+padding-left: 5%;
+padding-top: 5%;
+}
+
 /*--------------------------About Page-----------------------------------------------*/
 
 .about_home{
-
+margin: 5%;
 }
 
 .flex{
@@ -455,6 +462,10 @@ max-width:
 
 #brandswesupport a:hover{
   text-decoration: underline;
+}
+
+.left_imagepad{
+padding-left: 10%;
 }
 
 /*---------------------------------footer--------------------------------------*/
